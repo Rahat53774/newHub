@@ -92,3 +92,46 @@ nav ul li a:hover {
    padding: auto;
 
 }
+summary{
+    background-color: aqua;
+    color: #000;
+
+}
+h3{
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 246, 247);
+}
+h3 span {
+    color: #c4f002;
+}
+h3 :hover{
+    font-size: 30px;
+   
+}
+.container{
+    display: grid;
+    align-items: flex-start;
+    
+}
+
+
+
+.underb { 
+
+    border: 0px solid red;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+    background: rgb(0, 0, 0);
+     
+}
+.box {
+  color: aliceblue;
+    margin: 10px 5px;
+    width: 60px;
+
+}
