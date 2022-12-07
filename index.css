@@ -83,12 +83,12 @@ nav ul li a:hover {
     top: 8px;
     right: 9px;
 }
-.grid-container{
+.video{
     display: grid;
-    grid-template-columns: 20px 20px 20px 20px;
-    grid-template-rows: 40px 80px;
-    justify-content: space-between;
-    height: 400px;
-    align-content: flex-start;
+    gap: 30px;
+    grid-template-columns: auto auto ;
+    background-color: #000;
+   margin: 20px;
+   padding: auto;
 
 }
